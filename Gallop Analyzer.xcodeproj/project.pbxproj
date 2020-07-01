@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09476CE86232AA04379AB81F /* Pods_Gallop_Analyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA82E4733AA5AA7C957A7988 /* Pods_Gallop_Analyzer.framework */; };
+		505CF2FD249E1A7F00097AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CF2FC249E1A7F00097AB0 /* AppDelegate.swift */; };
+		505CF2FF249E1A7F00097AB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CF2FE249E1A7F00097AB0 /* SceneDelegate.swift */; };
+		505CF301249E1A7F00097AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CF300249E1A7F00097AB0 /* ViewController.swift */; };
+		505CF304249E1A7F00097AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505CF302249E1A7F00097AB0 /* Main.storyboard */; };
+		505CF306249E1A8000097AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505CF305249E1A8000097AB0 /* Assets.xcassets */; };
+		505CF309249E1A8000097AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505CF307249E1A8000097AB0 /* LaunchScreen.storyboard */; };
+		50D3BC09249E228500AD8D9C /* GallopSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 50D3BC08249E228500AD8D9C /* GallopSentimentClassifier.mlmodel */; };
+		50D3BC1D249E292E00AD8D9C /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D3BC13249E291100AD8D9C /* SwifteriOS.framework */; };
+		50D3BC1E249E292E00AD8D9C /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50D3BC13249E291100AD8D9C /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D3BC12249E291100AD8D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		50D3BC14249E291100AD8D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		50D3BC16249E291100AD8D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		50D3BC18249E291100AD8D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		50D3BC1A249E291100AD8D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50D3BC1F249E292E00AD8D9C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50D3BC1E249E292E00AD8D9C /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11577FA0F405AEA551B95B73 /* Pods-Gallop Analyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallop Analyzer.release.xcconfig"; path = "Target Support Files/Pods-Gallop Analyzer/Pods-Gallop Analyzer.release.xcconfig"; sourceTree = "<group>"; };
+		505CF2F9249E1A7F00097AB0 /* Gallop Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gallop Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505CF2FC249E1A7F00097AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		505CF2FE249E1A7F00097AB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		505CF300249E1A7F00097AB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		505CF303249E1A7F00097AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		505CF305249E1A8000097AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505CF308249E1A8000097AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505CF30A249E1A8000097AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D3BC08249E228500AD8D9C /* GallopSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GallopSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../../../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		560D3EA1952EEDAC2E2A42A6 /* Pods-Gallop Analyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallop Analyzer.debug.xcconfig"; path = "Target Support Files/Pods-Gallop Analyzer/Pods-Gallop Analyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		BA82E4733AA5AA7C957A7988 /* Pods_Gallop_Analyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gallop_Analyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505CF2F6249E1A7F00097AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D3BC1D249E292E00AD8D9C /* SwifteriOS.framework in Frameworks */,
+				09476CE86232AA04379AB81F /* Pods_Gallop_Analyzer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505CF2F0249E1A7F00097AB0 = {
+			isa = PBXGroup;
+			children = (
+				50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */,
+				505CF2FB249E1A7F00097AB0 /* Gallop Analyzer */,
+				505CF2FA249E1A7F00097AB0 /* Products */,
+				50D3BC1C249E292E00AD8D9C /* Frameworks */,
+				C5CE15A800704B9383533CE1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		505CF2FA249E1A7F00097AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505CF2F9249E1A7F00097AB0 /* Gallop Analyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505CF2FB249E1A7F00097AB0 /* Gallop Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				50D3BC08249E228500AD8D9C /* GallopSentimentClassifier.mlmodel */,
+				505CF2FC249E1A7F00097AB0 /* AppDelegate.swift */,
+				505CF2FE249E1A7F00097AB0 /* SceneDelegate.swift */,
+				505CF300249E1A7F00097AB0 /* ViewController.swift */,
+				505CF302249E1A7F00097AB0 /* Main.storyboard */,
+				505CF305249E1A8000097AB0 /* Assets.xcassets */,
+				505CF307249E1A8000097AB0 /* LaunchScreen.storyboard */,
+				505CF30A249E1A8000097AB0 /* Info.plist */,
+			);
+			path = "Gallop Analyzer";
+			sourceTree = "<group>";
+		};
+		50D3BC0B249E291100AD8D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D3BC13249E291100AD8D9C /* SwifteriOS.framework */,
+				50D3BC15249E291100AD8D9C /* SwifterMac.framework */,
+				50D3BC17249E291100AD8D9C /* SwifterDemoiOS.app */,
+				50D3BC19249E291100AD8D9C /* SwifterDemoMac.app */,
+				50D3BC1B249E291100AD8D9C /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D3BC1C249E292E00AD8D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA82E4733AA5AA7C957A7988 /* Pods_Gallop_Analyzer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CE15A800704B9383533CE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560D3EA1952EEDAC2E2A42A6 /* Pods-Gallop Analyzer.debug.xcconfig */,
+				11577FA0F405AEA551B95B73 /* Pods-Gallop Analyzer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505CF2F8249E1A7F00097AB0 /* Gallop Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505CF30D249E1A8000097AB0 /* Build configuration list for PBXNativeTarget "Gallop Analyzer" */;
+			buildPhases = (
+				9905ED7D4F249345D5BEFC49 /* [CP] Check Pods Manifest.lock */,
+				505CF2F5249E1A7F00097AB0 /* Sources */,
+				505CF2F6249E1A7F00097AB0 /* Frameworks */,
+				505CF2F7249E1A7F00097AB0 /* Resources */,
+				50D3BC1F249E292E00AD8D9C /* Embed Frameworks */,
+				E5D2FBC4B4C4AE40E930DE0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gallop Analyzer";
+			productName = "Gallop Analyzer";
+			productReference = 505CF2F9249E1A7F00097AB0 /* Gallop Analyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505CF2F1249E1A7F00097AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vishaal Kumar";
+				TargetAttributes = {
+					505CF2F8249E1A7F00097AB0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 505CF2F4249E1A7F00097AB0 /* Build configuration list for PBXProject "Gallop Analyzer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505CF2F0249E1A7F00097AB0;
+			productRefGroup = 505CF2FA249E1A7F00097AB0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 50D3BC0B249E291100AD8D9C /* Products */;
+					ProjectRef = 50D3BC0A249E291100AD8D9C /* Swifter.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				505CF2F8249E1A7F00097AB0 /* Gallop Analyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		50D3BC13249E291100AD8D9C /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 50D3BC12249E291100AD8D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D3BC15249E291100AD8D9C /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 50D3BC14249E291100AD8D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D3BC17249E291100AD8D9C /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 50D3BC16249E291100AD8D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D3BC19249E291100AD8D9C /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 50D3BC18249E291100AD8D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		50D3BC1B249E291100AD8D9C /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 50D3BC1A249E291100AD8D9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505CF2F7249E1A7F00097AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505CF309249E1A8000097AB0 /* LaunchScreen.storyboard in Resources */,
+				505CF306249E1A8000097AB0 /* Assets.xcassets in Resources */,
+				505CF304249E1A7F00097AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9905ED7D4F249345D5BEFC49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gallop Analyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D2FBC4B4C4AE40E930DE0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallop Analyzer/Pods-Gallop Analyzer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallop Analyzer/Pods-Gallop Analyzer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gallop Analyzer/Pods-Gallop Analyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505CF2F5249E1A7F00097AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D3BC09249E228500AD8D9C /* GallopSentimentClassifier.mlmodel in Sources */,
+				505CF301249E1A7F00097AB0 /* ViewController.swift in Sources */,
+				505CF2FD249E1A7F00097AB0 /* AppDelegate.swift in Sources */,
+				505CF2FF249E1A7F00097AB0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		505CF302249E1A7F00097AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505CF303249E1A7F00097AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		505CF307249E1A8000097AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				505CF308249E1A8000097AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505CF30B249E1A8000097AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		505CF30C249E1A8000097AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505CF30E249E1A8000097AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560D3EA1952EEDAC2E2A42A6 /* Pods-Gallop Analyzer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59LX92TU7A;
+				INFOPLIST_FILE = "Gallop Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishaalkumar.Gallop-Analyzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505CF30F249E1A8000097AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11577FA0F405AEA551B95B73 /* Pods-Gallop Analyzer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59LX92TU7A;
+				INFOPLIST_FILE = "Gallop Analyzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vishaalkumar.Gallop-Analyzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505CF2F4249E1A7F00097AB0 /* Build configuration list for PBXProject "Gallop Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505CF30B249E1A8000097AB0 /* Debug */,
+				505CF30C249E1A8000097AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505CF30D249E1A8000097AB0 /* Build configuration list for PBXNativeTarget "Gallop Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505CF30E249E1A8000097AB0 /* Debug */,
+				505CF30F249E1A8000097AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505CF2F1249E1A7F00097AB0 /* Project object */;
+}

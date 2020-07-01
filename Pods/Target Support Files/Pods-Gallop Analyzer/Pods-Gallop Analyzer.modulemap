@@ -1,0 +1,6 @@
+framework module Pods_Gallop_Analyzer {
+  umbrella header "Pods-Gallop Analyzer-umbrella.h"
+
+  export *
+  module * { export * }
+}
